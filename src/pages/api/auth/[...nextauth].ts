@@ -1,17 +1,16 @@
 import NextAuth from "next-auth";
-import Providers from "next-auth/providers";
+import GitHubProvider from "next-auth/providers/github";
 
 
 export default NextAuth({
   providers: [
-    Providers.GitHub({
+    GitHubProvider({
       clientId: process.env.GITHUB_CLIENT_ID,
       clientSecret: process.env.GITHUB_CLIENT_SECRET,
-      scope: 'read:user'
     }),
   ],
   callbacks: {
-    async signIn(user, account, profile){
+    async signIn({user, account, profile}){
       console.log(user);
       return true;
     }
