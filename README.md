@@ -1,11 +1,17 @@
-# Ig.News
+![Logo Ignews](https://user-images.githubusercontent.com/62440116/155584432-12e4bd0c-74df-48a0-8e91-d204a5bdcf2d.svg)
 
-<!-- ![Banner Readme nlw4](https://user-images.githubusercontent.com/62440116/109360555-33716980-7866-11eb-8639-7cfe39198933.png) -->
+<div align="center">
+  <a href="#-tecnologias">Tecnologias</a> | <a href="#-o-projeto">O Projeto</a> | <a href="#-teste-a-aplicação">Teste a Aplicação</a> 
+</div>
+<br>
+
+![Banner Readme Ignews](https://user-images.githubusercontent.com/62440116/155584175-308f8376-f2e3-46e7-b974-3c9539703502.svg)
 
 # 👷🏻 O Projeto
 Esse é um projeto desenvolvido e ministrado pela Rocketseat no decorrer da trilha de ReactJS do Ignite. O programa é um site de notícias por assinatura onde o administrador consegue fazer publicações relacionadas à área de tecnologia. O objetivo principal da aplicação é que o usuário crie uma conta e se inscreva para ter acesso aos posts.
 
 # 🤳🏻 Funcionalidades gerais
+
 - Fazer Login e Logout utilizando o GitHub
 - Inscrever-se
 - Fazer pagamento utilizando o Stripe
